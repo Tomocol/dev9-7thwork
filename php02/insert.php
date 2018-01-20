@@ -8,7 +8,7 @@ const DB = "";
 const DB_ID = "";
 const DB_PW = "";
 const DB_NAME = "";
-
+session_set_save_handler星
 //PDOでデータベース接続
 try {
 $pdo = new PDO("mysql:host=localhost;dbname=gsblog_db;charset=utf8",'root');
